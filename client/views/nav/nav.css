@@ -1,0 +1,14 @@
+nav{
+	background-color: #455;
+	color: #EEF;
+
+	display: inline-block;
+	position: relative;
+
+	border-right: 0.3em solid #689;
+	border-left: 0.5em solid #233;
+	padding: 0.5em 1em;
+
+	width: 20em;
+	height: 100%;
+}
