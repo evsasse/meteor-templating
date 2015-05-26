@@ -1,21 +1,33 @@
 nav{
-	background-color: #455;
-	color: #EEF;
+	background-color: #444;
+	color: #EEE;
 
-	display: inline-block;
-	position: relative;
-	margin-left: -20em;
+	border-right: 0.1em solid #888;
+	border-left: 0.5em solid #222;
 
-	transition: margin-left 0.2s;
-
-	border-right: 0.2em solid #689;
-	border-left: 0.5em solid #233;
-	padding: 0.5em 0.6em;
+	padding: 0.5em 0;
 
 	width: 20em;
 	height: 100%;
+
+	float: left;
+
+	margin-left: -20em;
+	transition: margin-left 0.2s;
 }
 
 nav.open{
 	margin-left: 0;
+}
+
+li{
+	background-color: #555;
+	padding: 0.5em;
+	border-bottom: 0.1em solid #666;
+}
+
+nav .logo{
+	display: block;
+	text-align: center;
+	margin: 0.6em;
 }

@@ -1,0 +1,28 @@
+header{
+	background-color: #444;
+	color: #EEE;
+
+	border-bottom: 0.1em solid #888;
+}
+
+.toggleNav{
+	background: url(img/ic_menu_white_48dp.png) #777;
+	background-size: cover;
+
+	border: 0.4em solid #777;
+
+	vertical-align: top;
+
+	width: 2.2em;
+	height: 2.2em;
+}
+
+.toggleNav:hover{
+	background-color: #666;
+	border: 0.4em solid #666;
+}
+
+header h1{
+	display: inline-block;
+	font-size: 1.7em;
+}

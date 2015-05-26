@@ -15,3 +15,37 @@ body{
 	font-size: 14px;
 	font-weight: 400;
 }
+
+h1, h2, h3{
+	font-weight: 300;
+	color: #6CE;
+}
+
+a{
+	color: #9D2;
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+button{
+	min-width: 1em;
+	min-height: 1em;
+
+	border: 0;
+}
+
+.logo{
+	font-size: 1.4em;
+	color: #E27;
+	font-family: monospace;
+}
+
+/* Monokai color
+	F92672 E27
+	66D9EF 6CE
+	A6E22E 9D2
+	FD971F E81
+*/
