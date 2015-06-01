@@ -2,7 +2,7 @@ nav{
 	background-color: #444;
 	color: #EEE;
 
-	border-right: 0.1em solid #888;
+	border-right: 0.1em solid #333;
 	border-left: 0.5em solid #222;
 
 	padding: 0.5em 0;
@@ -24,6 +24,10 @@ li{
 	background-color: #555;
 	padding: 0.5em;
 	border-bottom: 0.1em solid #666;
+}
+
+li:hover{
+	background-color: #4F4F4F;
 }
 
 nav .logo{

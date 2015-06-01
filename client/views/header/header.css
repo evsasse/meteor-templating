@@ -2,14 +2,14 @@ header{
 	background-color: #444;
 	color: #EEE;
 
-	border-bottom: 0.1em solid #888;
+	border-bottom: 0.1em solid #333;
 }
 
 .toggleNav{
-	background: url(img/ic_menu_white_48dp.png) #777;
+	background: url(img/ic_menu_white_48dp.png) #333;
 	background-size: cover;
 
-	border: 0.4em solid #777;
+	border: 0.4em solid #333;
 
 	vertical-align: top;
 
@@ -18,8 +18,8 @@ header{
 }
 
 .toggleNav:hover{
-	background-color: #666;
-	border: 0.4em solid #666;
+	background-color: #222;
+	border: 0.4em solid #222;
 }
 
 header h1{
