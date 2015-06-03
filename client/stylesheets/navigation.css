@@ -1,0 +1,13 @@
+header.navigation{
+	position: fixed;
+}
+
+nav.navigation{
+	position: fixed;
+}
+
+@media only screen and (min-width: 60em){
+	body{
+		background-color: #F00;
+	}
+}
