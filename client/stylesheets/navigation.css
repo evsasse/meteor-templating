@@ -13,7 +13,7 @@ nav.navigation{
 	transition: left 0.2s;
 }
 
-nav.navigation.open{
+.navigationOpen nav.navigation{
 	left: 0;
 }
 
@@ -21,14 +21,7 @@ nav.navigation.open{
 	body{
 		background-color: #F00;
 	}
-	nav.navigation{
-		position: relative;
-		float: left;
-		left: 0;
-		margin-left: -20em;
-		transition: margin-left 0.2s;
-	}
-	nav.navigation.open{
-		margin-left: 0;
+	body.navigationOpen{
+		margin-left: 20em;
 	}
 }
