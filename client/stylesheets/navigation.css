@@ -10,6 +10,7 @@ nav.navigation{
 	width: 20em;
 	left: -21em;
 	transition: left 0.2s;
+	box-shadow: 2px 0 5px #000;
 }
 
 .navigationOpen nav.navigation{
@@ -21,6 +22,6 @@ nav.navigation{
 		transition: margin-left 0.2s;
 	}
 	body.navigationOpen{
-		margin-left: 20em;
+		margin-left: 21em;
 	}
 }
