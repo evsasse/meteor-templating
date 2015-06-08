@@ -1,15 +1,14 @@
 header.navigation{
 	display: block;
-	background: linear-gradient(to right, #1E1F2D -30%, #541616 200%);
 	padding: 1.5em;
 }
 
 nav.navigation{
 	position: fixed;
 	height: 100%;
-	background-color: #00F;
+	background-color: #EEE;
 	width: 20em;
-	left: -20em;
+	left: -21em;
 	transition: left 0.2s;
 }
 
@@ -19,7 +18,7 @@ nav.navigation{
 
 @media only screen and (min-width: 60em){
 	body{
-		background-color: #F00;
+		transition: margin-left 0.2s;
 	}
 	body.navigationOpen{
 		margin-left: 20em;
