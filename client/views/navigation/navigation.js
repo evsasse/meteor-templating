@@ -1,11 +1,13 @@
 Template.navigation.events({
-  'click .toggleNavigation': function(event){
-    var current = Session.get('navigationOpen') === true;
-		Session.set('navigationOpen',!current);
+  'click .toggle-navigation': function(event){
+    var current = Session.get('navigation-open') === true;
+		Session.set('navigation-open',!current);
+
+    console.log(current);
 
     if(!current)
-      document.body.classList.add('navigationOpen')
+      document.body.classList.add('navigation-open')
     else
-      document.body.classList.remove('navigationOpen')
+      document.body.classList.remove('navigation-open')
   }
 })
