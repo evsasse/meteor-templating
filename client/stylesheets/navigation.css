@@ -1,9 +1,9 @@
-header.navigation{
+.topbar{
 	display: block;
 	padding: 1.5em;
 }
 
-nav.navigation{
+.navigation{
 	position: fixed;
 	height: 100%;
 	background-color: #EEE;
@@ -14,33 +14,54 @@ nav.navigation{
 	padding: 0.5em 0;
 }
 
-nav.navigation h2{
+.navigation h2{
 	text-align: center;
 }
 
-nav.navigation ul{
+.navigation ul{
 	border: 1px dashed #AAA;
 	border-width: 1px 0;
 	margin: 1em 0;
 	padding: 0.3em 0;
 }
 
-nav.navigation li{
-	padding: 0.3em;
-	margin: 0.25em 0;
-	box-shadow: 0 0 2px #BBB;
+.navigation a{
+	color: #555;
 }
 
-nav.navigation .toggle-navigation{
+.navigation li{
+	padding: 0.4em 1em;
+	margin: 0.25em 0;
+	background-color: rgba(0,0,0,0.03);
+}
+
+.navigation a:hover li{
+	background-color: rgba(0,0,0,0.08);
+}
+
+.navigation .toggle-navigation{
 	float: right;
+	margin-right: 0.6em;
 	background: url('/img/menu.svg') no-repeat center center;
 	background-size: 1.8em;
 	border: 0;
 	padding: 1em;
 }
 
-.navigation-open nav.navigation{
+.navigation-open .navigation{
 	left: 0;
+}
+
+.content-cover{
+	transition: width 0.2s;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	width: 0;
+	height: 100%;
+}
+
+.navigation-open .content-cover{
+	width: 100%;
 }
 
 @media only screen and (min-width: 60em){
@@ -49,5 +70,8 @@ nav.navigation .toggle-navigation{
 	}
 	body.navigation-open{
 		margin-left: 21em;
+	}
+	.navigation-open .content-cover{
+		width: 0;
 	}
 }
