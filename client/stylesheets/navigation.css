@@ -4,6 +4,7 @@
 }
 
 .navigation{
+	color: #333;
 	position: fixed;
 	height: 100%;
 	background-color: #EEE;
@@ -53,7 +54,7 @@
 }
 
 .content-cover{
-	transition: width 0.2s;
+	transition: width 0.35s;
 	background-color: rgba(0,0,0,0.6);
 	position: fixed;
 	width: 0;
@@ -64,10 +65,12 @@
 	width: 100%;
 }
 
+body{
+	margin-left: 0;
+	transition: margin-left 0.3s;
+}
+
 @media only screen and (min-width: 60em){
-	body{
-		transition: margin-left 0.2s;
-	}
 	body.navigation-open{
 		margin-left: 21em;
 	}
