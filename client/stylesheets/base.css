@@ -21,11 +21,20 @@ a{
 }
 
 body{
-	background: linear-gradient(210deg, #621A24 0, #251E2A 100%) fixed no-repeat;
+	background: linear-gradient(50deg, #621A24 0, rgba(0,0,0,0) 100%) fixed no-repeat;
+	background-color: #251E2A;
 	font-family: 'Roboto', Helvetica, sans-serif;
 	font-weight: 300;
 }
 
 h1, h2, h3{
 	font-weight: 300;
+}
+
+/* \/ PROBABLY SHOULD BE MOVED TO OTHER FILE  \/ */
+
+main{
+	background: rgba(0,0,0,0.2);
+	padding: 1em;
+	color: #EEE;
 }

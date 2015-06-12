@@ -1,7 +1,8 @@
 .topbar{
 	display: block;
-	padding: 1em 0.5em;
+	padding: 0.6em 0.4em;
 	color: #EEE;
+	box-shadow: 0 0 1em rgba(0,0,0,0.1);
 }
 
 .topbar h1{
@@ -9,10 +10,20 @@
 }
 
 .topbar .toggle-navigation{
-	float: left;
 	color: #EEE;
 	border: none;
 	background: none;
+	transition: width 0.2s ease;
+	width: 3em
+}
+
+.navigation-open .topbar .toggle-navigation{
+	width: 0;
+}
+
+.topbar h1,
+.topbar .toggle-navigation{
+	display: inline-block;
 }
 
 .navigation{
@@ -84,7 +95,7 @@ body{
 
 @media only screen and (min-width: 60em){
 	body.navigation-open{
-		margin-left: 21em;
+		margin-left: 20em;
 	}
 	.navigation-open .content-cover{
 		width: 0;
